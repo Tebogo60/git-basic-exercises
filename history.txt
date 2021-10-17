@@ -1,0 +1,355 @@
+    1  mkdir git-basic-exercises
+    2  mkdir git-basic-exercises
+    3  mkdir git-basic-exercises
+    4  mkdir git-basic-exercises
+    5  mkdir 
+    6  --help
+    7  mkdir --help
+    8  mkdir git-basic-exercises
+    9  cd git-basic-exercises
+   10  ls -a
+   11  git init
+   12  mkdir git-basic-exercises
+   13  cd git-basiz-exercises
+   14  cd git-basic-exercises
+   15  ls -a
+   16  git init
+   17  ls -a
+   18  git status
+   19  touch README.md
+   20  ls -a
+   21  git status
+   22  gitlog
+   23  git log
+   24  git add
+   25  git add README.md
+   26  git status
+   27  gi rm --cache README.md
+   28  git status
+   29  git commit -m "initial commit"
+   30  git log
+   31  nano README.md
+   32  cat README.md
+   33  git status
+   34  git commit -m "second initial"
+   35  git commit -a "second commit"
+   36  git add "README.md"
+   37  git add
+   38  git add "README.md"
+   39  git add "second commit"
+   40  git commit -m "second initial"
+   41  git commit -m "third initial"
+   42  git staus
+   43  git status
+   44  git add "README.md"
+   45  git commit -m "third initial"
+   46  cat README.md
+   47  git add "README.md"
+   48  git commit -m "third initial"
+   49  nano README.md
+   50  cat RAEDME.md
+   51  cat README.md
+   52  git status
+   53  nano README.md
+   54  cat readme.md
+   55  git status
+   56  git add "README.md"
+   57  git commit -m "third commit"
+   58  git log
+   59  q
+   60  git q
+   61  git checkout
+   62  cat README.md
+   63  git checkout main
+   64  cat README.md
+   65  git checkout 56606a0b7f13c30b81a6f5e8a408df2e93639327
+   66  git checkout main
+   67  ca readme.md
+   68  cat README.md
+   69  git checkout milkshake-flavours
+   70  git checkout milkshake-flavours
+   71  git checkout
+   72  git checkout milkshake-flavours
+   73  git status
+   74  git checkout -b "milkshake-flavours"
+   75  git branch
+   76  git checkout branch
+   77  git checkout main
+   78  git checkout milkshake-flavours
+   79  nano milkshakes.md "fill in a few flavours. Mmmm."
+   80  nano milkshakes.md
+   81  git status
+   82  git log
+   83  nano milkshakes.md
+   84  git status
+   85  cat milkshakes.md
+   86  git add "milkshakes.md"
+   87  git commit -m "added initial flavours"
+   88  git log
+   89  git checkout main
+   90  git log
+   91  git checkout -b "history"
+   92  git log
+   93  git branch
+   94  history > history.txt
+   95  cat history.txt
+   96  git add "history.txt"
+   97  git commit -m "added history"
+   98  git log
+   99  git checkout milkshake-flavours
+  100  git log
+  101  cat README.md
+  102  git add "README.md"
+  103  git commit -m "random readme changes"
+  104  cat README.md
+  105  git add README.md
+  106  git commit -m "random readme changes"
+  107  nano README.md
+  108  cat README.md
+  109  git add "README.md"
+  110  git commit -m "random readme changes"
+  111  git status
+  112  rm README.md
+  113  cat README.md
+  114  git add "README.md"
+  115  git commit -m "rewrote readme"
+  116  git checkout main
+  117  README.md
+  118  git Log
+  119  git log
+  120  git checkout milkshakes-flavours
+  121  git checkout milkshake-flavours
+  122  ls
+  123  git log
+  124  git checkout history
+  125  ls
+  126  git log
+  127  git checkout main
+  128  git merge millshake-flavours
+  129  ls
+  130  git log
+  131  git checkout history
+  132  git log
+  133  git checkout milkshake-flavours
+  134  git log
+  135  git checkout history
+  136  git merge main
+  137  git log
+  138  git checkout main
+  139  git log
+  140  echo "# git-basic-exercises" >> README.md
+  141  git init
+  142  git add README.md
+  143  git commit -m "first commit"
+  144  git branch -M main
+  145  git remote add origin https://github.com/Tebogo60/git-basic-exercises.git
+  146  git push -u origin main
+  147  TebTjM00
+  148  echo "# git-basic-exercises" >> README.md
+  149  git init
+  150  git add README.md
+  151  git commit -m "first commit"
+  152  git branch -M main
+  153  git remote add origin https://github.com/Tebogo60/git-basic-exercises.git
+  154  git push -u origin main
+  155  T
+  156  git remote add origin git@github.com:Tebogo60/git-basic-exercises.git
+  157  git branch -M main
+  158  git push -u origin main
+  159  TjM000225
+  160  Tebogo60
+  161  Tebogo@DESKTOP-0V68G3J MINGW64 ~/Documents/git-basic-exercises (main)
+  162  $ git remote add origin https://github.com/Tebogo60/git-basic-exercises.git
+  163  error: remote origin already exists.
+  164  Tebogo@DESKTOP-0V68G3J MINGW64 ~/Documents/git-basic-exercises (main)
+  165  $ 
+  166  git remote add origin git@github.com:Tebogo60/git-basic-exercises.git
+  167  git branch -M main
+  168  git push -u origin main
+  169  git remote add origin git@github.com:Tebogo60/git-basic-exercises.git
+  170  git branch -M main
+  171  git push -u origin main
+  172  git branch
+  173  cd ../
+  174  git clone https://github.com/Umuzi-org/a-repo-to-clone.git
+  175  cd a-repo-to-clone
+  176  git branch
+  177  git log
+  178  git branch -a
+  179  cd ../
+  180  cd git-basic-exercises
+  181  git log
+  182  cd ../
+  183  project/git-basic-exercises
+  184  cd project/git-basic-exercises
+  185  cd git-basic-exercises
+  186  git checkout project/project-basic-exercises
+  187  git remote -v
+  188  cd mkdir this-will-be-another-repo
+  189  cd ../
+  190  mkdir this-will-be-another-repo
+  191  cd this-will-be-another-repo
+  192  git init
+  193  touch README.md
+  194  cd ../
+  195  cd git-basic-exercises
+  196  git log
+  197  touch ignore-me.db
+  198  git status
+  199  nano .gitignore
+  200  git status
+  201  mkdir large-directory-that-should-be-local-only
+  202  cd large-directory-that-should-be-local-only
+  203  cd ..
+  204  git status
+  205  nano .gitignore
+  206  git status
+  207  git add .gitignore
+  208  git commit -m ".gitignore"
+  209  git commit -m "git commit -m "added .gitignore"
+  210  git add .gitignore
+  211  git log
+  212  git commit -m "git commit -m "added .gitignore"
+  213  git add .gitignore
+  214  git log
+  215  git status
+  216  nano .gitignore
+  217  git status
+  218  git add .gitignore
+  219  git commit -m "git commit -m "added .gitignore"
+  220  git push
+  221  mkdir basic
+  222  cd basic
+  223  git add 12334
+  224  git add basic 1.md
+  225  mkdir git-basic-exercises
+  226  cd git-basic-exercises
+  227  ls -a
+  228  git init
+  229  ls -a
+  230  git status
+  231  git status
+  232  touch README.md
+  233  ls -a
+  234  git status
+  235  git log
+  236  git add README.md
+  237  git status
+  238  git rm --cached README.md
+  239  git status
+  240  git add README.md 
+  241  git status
+  242  git commit -m "initial commit"
+  243  git log
+  244  nano README.md
+  245  cat README.md
+  246  git status
+  247  git add README.md
+  248  nano README.md
+  249  cat README.md
+  250  git add README.md "second commit"
+  251  commit -m "second commit"
+  252  git log
+  253  nano README.md
+  254  cat README.md
+  255  git status
+  256  git add README.md
+  257  git commit -m "second commit"
+  258  git log
+  259  git status
+  260  git add README.md
+  261  git status
+  262  cat readme.md
+  263  git add README.md
+  264  git status
+  265  git add .
+  266  ls -a
+  267  git status
+  268  git add README.md
+  269  git status
+  270  git log
+  271  git add
+  272  git add README.md
+  273  git status
+  274  git rm --cached README.md
+  275  git status
+  276  git add README.md
+  277  git commit -m "third commit"
+  278  git add README.md
+  279  git status
+  280  git add README.md
+  281  git status
+  282  git rm --cached README.md
+  283  git status
+  284  git add README.md
+  285  git commit -m "third commit"
+  286  git restore --staged README.md
+  287  git status
+  288  git rm --cached README.md
+  289  git status
+  290  git commit -m "third commit"
+  291  git log
+  292  git checkout 4e2727f0c609c6e8c9e01714210b2db65acff417
+  293  cat README.md
+  294  git checkout main
+  295  git checkout 4e2727f0c609c6e8c9e01714210b2db65acff417
+  296  cat readme.md
+  297  cat README.md
+  298  git log
+  299  git checkout 4e2727f0c609c6e8c9e01714210b2db65acff417
+  300  cd readme.md
+  301  mkdir git-basic-exercises
+  302  cd git-basic-exercises
+  303  ls -a
+  304  git init
+  305  ls =a
+  306  ls -a
+  307  git status
+  308  touch README.md
+  309  ls -a
+  310  git status
+  311  git log
+  312  git add README.md
+  313  git status
+  314  git commit -m "initial commit"
+  315  git log
+  316  nano README.md
+  317  cat readme.md
+  318  git status
+  319  git add README.md
+  320  git status
+  321  git add "second commit"
+  322  git status
+  323  git commit -m "second commit"
+  324  git log
+  325  nano README.md
+  326  cat README.md
+  327  git status
+  328  git commit -m "third cmment"
+  329  git add README.md
+  330  nano README.md
+  331  cat EADME.md
+  332  cat README.md
+  333  git status
+  334  git commit -m "third commit"
+  335  git log
+  336  git checkout 09248596cbed14575f61a579fb50ec9e17d5e18f
+  337  cat README.md
+  338  git checkout master
+  339  cat README.md
+  340  git branch
+  341  git branch milkshake-flavours
+  342  git branch
+  343  git checkout milkshake-flavours
+  344  nano milkshakes.md
+  345  git status
+  346  git add milkshakes.md
+  347  cat milkshakes.md
+  348  git commit -m "added initial flavours"
+  349  git log
+  350  git checkout master
+  351  git log
+  352  git branch history
+  353  git checkout history
+  354  git log
+  355  history > history.txt
